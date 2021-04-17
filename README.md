@@ -1,0 +1,2 @@
+# HapticJacketSwiftUI
+Senior Design Project
