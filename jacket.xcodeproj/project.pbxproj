@@ -21,6 +21,7 @@
 		551D6E7C262AD05500A89CA6 /* Transition1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D6E7B262AD05500A89CA6 /* Transition1.swift */; };
 		551D6E81262AD06200A89CA6 /* Transition2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D6E80262AD06200A89CA6 /* Transition2.swift */; };
 		551D6E86262AD06F00A89CA6 /* Transition3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D6E85262AD06F00A89CA6 /* Transition3.swift */; };
+		55F2B1FD262BF18D000C8AF8 /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F2B1FC262BF18D000C8AF8 /* CheckView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		551D6E7B262AD05500A89CA6 /* Transition1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition1.swift; sourceTree = "<group>"; };
 		551D6E80262AD06200A89CA6 /* Transition2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition2.swift; sourceTree = "<group>"; };
 		551D6E85262AD06F00A89CA6 /* Transition3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition3.swift; sourceTree = "<group>"; };
+		55F2B1FC262BF18D000C8AF8 /* CheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				551D6E25262AB45B00A89CA6 /* Preview Content */,
 				551D6E4D262AB52B00A89CA6 /* menuView.swift */,
 				551D6E52262AC13A00A89CA6 /* patterns.swift */,
+				55F2B1FC262BF18D000C8AF8 /* CheckView.swift */,
 			);
 			path = jacket;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				551D6E4E262AB52C00A89CA6 /* menuView.swift in Sources */,
 				551D6E77262AD04900A89CA6 /* Smooth.swift in Sources */,
 				551D6E22262AB45600A89CA6 /* ContentView.swift in Sources */,
+				55F2B1FD262BF18D000C8AF8 /* CheckView.swift in Sources */,
 				551D6E81262AD06200A89CA6 /* Transition2.swift in Sources */,
 				551D6E86262AD06F00A89CA6 /* Transition3.swift in Sources */,
 				551D6E65262ACFF300A89CA6 /* Click.swift in Sources */,

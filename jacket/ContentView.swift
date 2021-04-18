@@ -73,6 +73,8 @@ class GlobalEnvironment1: ObservableObject {
     private init() {}
     static let shared = GlobalEnvironment1()
     @Published var vibeNum: Int = 0
+    @Published var stringVal: String = ""
+    @Published var stringValMotors: String = ""
     
     
 }
