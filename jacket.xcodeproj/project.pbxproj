@@ -13,7 +13,6 @@
 		551D6E27262AB45B00A89CA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551D6E26262AB45B00A89CA6 /* Preview Assets.xcassets */; };
 		551D6E32262AB45B00A89CA6 /* jacketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D6E31262AB45B00A89CA6 /* jacketTests.swift */; };
 		551D6E3D262AB45B00A89CA6 /* jacketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D6E3C262AB45B00A89CA6 /* jacketUITests.swift */; };
-		551D6E4E262AB52C00A89CA6 /* menuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D6E4D262AB52B00A89CA6 /* menuView.swift */; };
 		551D6E53262AC13B00A89CA6 /* patterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D6E52262AC13A00A89CA6 /* patterns.swift */; };
 		551D6E65262ACFF300A89CA6 /* Click.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D6E64262ACFF300A89CA6 /* Click.swift */; };
 		551D6E72262AD02700A89CA6 /* Buzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D6E71262AD02700A89CA6 /* Buzz.swift */; };
@@ -21,7 +20,10 @@
 		551D6E7C262AD05500A89CA6 /* Transition1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D6E7B262AD05500A89CA6 /* Transition1.swift */; };
 		551D6E81262AD06200A89CA6 /* Transition2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D6E80262AD06200A89CA6 /* Transition2.swift */; };
 		551D6E86262AD06F00A89CA6 /* Transition3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551D6E85262AD06F00A89CA6 /* Transition3.swift */; };
+		55637116263619E300414429 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55637115263619E300414429 /* extension.swift */; };
+		5563711B263619FE00414429 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563711A263619FE00414429 /* ScanView.swift */; };
 		55F2B1FD262BF18D000C8AF8 /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F2B1FC262BF18D000C8AF8 /* CheckView.swift */; };
+		55FC0F132634F0E40074E009 /* Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC0F122634F0E30074E009 /* Bluetooth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +56,6 @@
 		551D6E38262AB45B00A89CA6 /* jacketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jacketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		551D6E3C262AB45B00A89CA6 /* jacketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jacketUITests.swift; sourceTree = "<group>"; };
 		551D6E3E262AB45B00A89CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		551D6E4D262AB52B00A89CA6 /* menuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuView.swift; sourceTree = "<group>"; };
 		551D6E52262AC13A00A89CA6 /* patterns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patterns.swift; sourceTree = "<group>"; };
 		551D6E64262ACFF300A89CA6 /* Click.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Click.swift; sourceTree = "<group>"; };
 		551D6E71262AD02700A89CA6 /* Buzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buzz.swift; sourceTree = "<group>"; };
@@ -62,7 +63,10 @@
 		551D6E7B262AD05500A89CA6 /* Transition1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition1.swift; sourceTree = "<group>"; };
 		551D6E80262AD06200A89CA6 /* Transition2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition2.swift; sourceTree = "<group>"; };
 		551D6E85262AD06F00A89CA6 /* Transition3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition3.swift; sourceTree = "<group>"; };
+		55637115263619E300414429 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		5563711A263619FE00414429 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
 		55F2B1FC262BF18D000C8AF8 /* CheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckView.swift; sourceTree = "<group>"; };
+		55FC0F122634F0E30074E009 /* Bluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,9 +123,11 @@
 				551D6E23262AB45B00A89CA6 /* Assets.xcassets */,
 				551D6E28262AB45B00A89CA6 /* Info.plist */,
 				551D6E25262AB45B00A89CA6 /* Preview Content */,
-				551D6E4D262AB52B00A89CA6 /* menuView.swift */,
 				551D6E52262AC13A00A89CA6 /* patterns.swift */,
 				55F2B1FC262BF18D000C8AF8 /* CheckView.swift */,
+				55FC0F122634F0E30074E009 /* Bluetooth.swift */,
+				55637115263619E300414429 /* extension.swift */,
+				5563711A263619FE00414429 /* ScanView.swift */,
 			);
 			path = jacket;
 			sourceTree = "<group>";
@@ -294,11 +300,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				551D6E4E262AB52C00A89CA6 /* menuView.swift in Sources */,
 				551D6E77262AD04900A89CA6 /* Smooth.swift in Sources */,
 				551D6E22262AB45600A89CA6 /* ContentView.swift in Sources */,
 				55F2B1FD262BF18D000C8AF8 /* CheckView.swift in Sources */,
+				55637116263619E300414429 /* extension.swift in Sources */,
+				55FC0F132634F0E40074E009 /* Bluetooth.swift in Sources */,
 				551D6E81262AD06200A89CA6 /* Transition2.swift in Sources */,
+				5563711B263619FE00414429 /* ScanView.swift in Sources */,
 				551D6E86262AD06F00A89CA6 /* Transition3.swift in Sources */,
 				551D6E65262ACFF300A89CA6 /* Click.swift in Sources */,
 				551D6E53262AC13B00A89CA6 /* patterns.swift in Sources */,

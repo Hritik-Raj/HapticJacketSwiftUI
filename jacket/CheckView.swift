@@ -17,16 +17,7 @@ struct CheckView: View {
                 Image(systemName: isChecked ? "checkmark.square": "square")
                 Text(title)
             }
-
         }
-
     }
-
 }
 
-
-//struct CheckView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        CheckView()
-//    }
-//}
