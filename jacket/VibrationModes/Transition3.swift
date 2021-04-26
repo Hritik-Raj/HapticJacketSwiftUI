@@ -22,17 +22,6 @@ struct Transition3: View {
     @Binding var isPresented: Bool
     @ObservedObject var env: GlobalEnvironment1 = .shared
     var body: some View {
-//        List {
-//            ForEach(table6, id: \.self) { function in
-//                Button (action: {
-//                    env.vibeNum = function.num
-//                })
-//                {
-//                Text(function.type)
-//                }
-//            }
-//        }
-        
         NavigationView{
             List {
 
@@ -60,8 +49,3 @@ struct Transition3s: Identifiable, Hashable {
     var type: String
 }
 
-//struct Transition3_Previews: PreviewProvider {
-//    static var previews: some View {
-//        Transition3()
-//    }
-//}

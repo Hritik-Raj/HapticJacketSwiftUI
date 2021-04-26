@@ -5,36 +5,6 @@
 //  Created by Hritik Raj on 4/17/21.
 //
 
-//import SwiftUI
-//
-//@main
-//struct jacketApp: App {
-//    var bluetooth = Bluetooth.shared
-//    var body: some Scene {
-//        WindowGroup {
-//            ContentView().onAppear{ bluetooth.delegate = self }
-//        }
-//    }
-//}
-//
-//extension jacketApp: BluetoothProtocol {
-//    func state(state: Bluetooth.State) {
-//        switch state {
-//        case .unknown: print("◦ .unknown")
-//        case .resetting: print("◦ .resetting")
-//        case .unsupported: print("◦ .unsupported")
-//        case .unauthorized: print("◦ bluetooth disabled, enable it in settings")
-//        case .poweredOff: print("◦ turn on bluetooth")
-//        case .poweredOn: print("◦ everything is ok")
-//        case .error: print("• error")
-//        }
-//    }
-//
-//    func list(list: [Bluetooth.Device]) { }
-//
-//    func value(data: Data) { }
-//}
-
 import SwiftUI
 
 @main

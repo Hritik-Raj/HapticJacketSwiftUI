@@ -65,17 +65,6 @@ struct Click: View {
     @ObservedObject var env: GlobalEnvironment1 = .shared
     
     var body: some View {
-//        List {
-//            ForEach(table2, id: \.self) { function in
-//                Button (action: {
-//                    env.vibeNum = function.num
-//                })
-//                {
-//                Text(function.type)
-//                }
-//            }
-//        }
-        
         NavigationView{
             List {
 
@@ -102,8 +91,3 @@ struct Clicks: Identifiable, Hashable {
     var num: Int
     var type: String
 }
-//struct Click_Previews: PreviewProvider {
-//    static var previews: some View {
-//        Click()
-//    }
-//}

@@ -23,16 +23,6 @@ struct Smooth: View {
     @Binding var isPresented: Bool
     @ObservedObject var env: GlobalEnvironment1 = .shared
     var body: some View {
-//        List {
-//            ForEach(table3, id: \.self) { function in
-//                Button (action: {
-//                    env.vibeNum = function.num
-//                })
-//                {
-//                Text(function.type)
-//                }
-//            }
-//        }
         
         NavigationView{
             List {
@@ -61,8 +51,3 @@ struct Smooths: Identifiable, Hashable {
     var type: String
 }
 
-//struct Smooth_Previews: PreviewProvider {
-//    static var previews: some View {
-//        Smooth()
-//    }
-//}

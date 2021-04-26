@@ -29,16 +29,6 @@ struct Buzz: View {
     @Binding var isPresented: Bool
     @ObservedObject var env: GlobalEnvironment1 = .shared
     var body: some View {
-//        List {
-//            ForEach(table1, id: \.self) { function in
-//                Button (action: {
-//                    env.vibeNum = function.num
-//                })
-//                {
-//                Text(function.type)
-//                }
-//            }
-//        }
         
         NavigationView{
             List {
@@ -67,8 +57,3 @@ struct Buzzes: Identifiable, Hashable {
     var type: String
 }
 
-//struct Buzz_Previews: PreviewProvider {
-//    static var previews: some View {
-//        Buzz()
-//    }
-//}
