@@ -41,6 +41,7 @@ struct Buzz: View {
                         }
                     }) {
                         Text(function.type)
+                            .font(.system(size: 15))
                     }
                 }
             }

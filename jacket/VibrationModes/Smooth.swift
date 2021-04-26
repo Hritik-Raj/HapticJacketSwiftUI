@@ -40,6 +40,7 @@ struct Smooth: View {
             }
 
             .navigationBarTitle(Text("Smooth"))
+            .font(.system(size: 15))
         }
     }
 }

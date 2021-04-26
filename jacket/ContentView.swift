@@ -55,23 +55,51 @@ struct ContentView: View {
         ZStack (alignment: .top){
             ScrollView (.vertical, showsIndicators: false) {
         VStack{
+            VStack {
+                Text("4D Haptic Jacket")
+                    .padding(.all)
+                Text("ECE 445 GROUP 44")
+                    .padding(.all)
+                Text("Hritik Raj")
+                    .padding(.all)
+                Text("Anushi Aggarwal")
+                    .padding(.all)
+                Text("Saksham Gupta")
+                    .padding(.all)
+            Divider()
+            }
+            .font(.title)
+            .font(.system(size: 35))
+            .foregroundColor(.white)
             
             Button(action: {
                 presented.toggle()
             }) {
-                
-                Text("scan")
-                
+                HStack {
+                    Image(systemName: "antenna.radiowaves.left.and.right")
+                        .frame(width: 50, height: 10, alignment: .trailing )
+
+                    VStack {
+                        Text("Scan")
+                    }
+                }.font(.title)
                 }
-            .buttonStyle(appButton()).padding()
             .sheet(isPresented: $presented){ ScanView(bluetooth: bluetooth, presented: $presented, list: $list, isConnected: $isConnected) }
+            .font(.system(size: 40))
+            .frame(width: (UIScreen.main.bounds.width - 2 * 12), height: UIScreen.main.bounds.height / 10)
+            .foregroundColor(.accentColor)
+            .background(Color.accentColor.opacity(0.2))
+            .cornerRadius(8)
+            .padding(.all)
                 .onAppear{ bluetooth.delegate = self }
-                Spacer()
+            
+            Divider()
+
             Text("Vibration Mode")
                 .font(.system(size: 40))
-                .foregroundColor(.black)
-                .padding(.all)
-            
+            .foregroundColor(.white)
+            .padding(.all)
+
             
             Button(action: {
                 self.ShowUnit1.toggle()
@@ -91,8 +119,10 @@ struct ContentView: View {
             }
                 .font(.system(size: 40))
                 .frame(width: (UIScreen.main.bounds.width - 2 * 12), height: UIScreen.main.bounds.height / 10)
-                .foregroundColor(.white)
-                .background(Color.gray)
+            .foregroundColor(.white)
+            .background(Color.gray.opacity(0.5))
+            .cornerRadius(8)
+            .padding(.all)
             
             Button(action: {
                 self.ShowUnit2.toggle()
@@ -111,8 +141,10 @@ struct ContentView: View {
             }
                 .font(.system(size: 40))
                 .frame(width: (UIScreen.main.bounds.width - 2 * 12), height: UIScreen.main.bounds.height / 10)
-                .foregroundColor(.white)
-                .background(Color.gray)
+            .foregroundColor(.white)
+            .background(Color.gray.opacity(0.5))
+            .cornerRadius(8)
+            .padding(.all)
         
             Button(action: {
                 self.ShowUnit3.toggle()
@@ -132,7 +164,9 @@ struct ContentView: View {
                 .font(.system(size: 40))
                 .frame(width: (UIScreen.main.bounds.width - 2 * 12), height: UIScreen.main.bounds.height / 10)
                 .foregroundColor(.white)
-                .background(Color.gray)
+            .background(Color.gray.opacity(0.5))
+            .cornerRadius(8)
+            .padding(.all)
         
             Button(action: {
                 self.ShowUnit4.toggle()
@@ -152,7 +186,9 @@ struct ContentView: View {
                 .font(.system(size: 40))
                 .frame(width: (UIScreen.main.bounds.width - 2 * 12), height: UIScreen.main.bounds.height / 10)
                 .foregroundColor(.white)
-                .background(Color.gray)
+            .background(Color.gray.opacity(0.5))
+            .cornerRadius(8)
+            .padding(.all)
             
             Button(action: {
                 self.ShowUnit5.toggle()
@@ -172,7 +208,9 @@ struct ContentView: View {
                 .font(.system(size: 40))
                 .frame(width: (UIScreen.main.bounds.width - 2 * 12), height: UIScreen.main.bounds.height / 10)
                 .foregroundColor(.white)
-                .background(Color.gray)
+            .background(Color.gray.opacity(0.5))
+            .cornerRadius(8)
+            .padding(.all)
                 
             Button(action: {
                 self.ShowUnit6.toggle()
@@ -192,16 +230,20 @@ struct ContentView: View {
                 .font(.system(size: 40))
                 .frame(width: (UIScreen.main.bounds.width - 2 * 12), height: UIScreen.main.bounds.height / 10)
                 .foregroundColor(.white)
-                .background(Color.gray)
+            .background(Color.gray.opacity(0.5))
+            .cornerRadius(8)
+            .padding(.all)
             
         }
             Spacer()
+            Divider()
 
             Text("Select Motor Numbers")
-                .font(.system(size: 40))
-                .foregroundColor(.black)
-                .padding(.all)
-            
+                .font(.system(size: 35))
+            .foregroundColor(.white)
+            .padding(.all)
+
+            Divider()
 
             
             VStack {

@@ -18,6 +18,7 @@ struct ScanView: View {
             Spacer()
             if isConnected {
                 Text("connected to \(bluetooth.current?.name ?? "")")
+                    .font(.system(size: 15))
             }
             Spacer()
             Button(action: { presented.toggle() }){
@@ -36,6 +37,7 @@ struct ScanView: View {
             Button(action: { bluetooth.connect(peripheral.peripheral) }){
                 HStack{
                     Text(peripheral.peripheral.name ?? "")
+                        .font(.system(size: 15))
                     Spacer()
                 }
                 HStack{

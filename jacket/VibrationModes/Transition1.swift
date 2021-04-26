@@ -42,6 +42,7 @@ struct Transition1: View {
                         }
                     }) {
                         Text(function.type)
+                            .font(.system(size: 15))
                     }
                 }
             }
